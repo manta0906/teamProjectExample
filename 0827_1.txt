@@ -34,34 +34,6 @@ public class Ch05Application {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 package dana.spring.persistence;
 
 import java.util.List;
@@ -80,28 +52,6 @@ public interface BoardRepository extends CrudRepository<Board, Long> {
 	
 	Page<Board> findByTitleContaining(String searchKeyword, Pageable paging);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 package dana.spring.domain;
