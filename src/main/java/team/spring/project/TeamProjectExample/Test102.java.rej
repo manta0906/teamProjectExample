@@ -1,0 +1,9 @@
+diff a/src/main/java/team/spring/project/TeamProjectExample/Test102.java b/src/main/java/team/spring/project/TeamProjectExample/Test102.java	(rejected hunks)
+@@ -0,6 +0,7 @@
+ public class App 
+ {
+     public static void main( String[] args )
++    {
+         System.out.println( "�׽�Ʈ1" );
+         System.out.println("�׽�Ʈ2");
+     }
